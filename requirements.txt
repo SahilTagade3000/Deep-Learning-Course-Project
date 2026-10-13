@@ -1,0 +1,9 @@
+# Install CPU PyTorch separately using the command in README.md first.
+numpy==2.0.2
+pandas==2.3.3
+scikit-learn==1.6.1
+torch-geometric==2.8.0.post1
+joblib>=1.4,<2
+streamlit>=1.42,<2
+matplotlib>=3.9,<4
+networkx>=3.3,<4
