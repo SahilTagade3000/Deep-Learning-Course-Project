@@ -1,3 +1,0 @@
-# Presentation dependencies verified with the existing Phase 5 artifacts.
-streamlit==1.64.0
-plotly==6.9.0

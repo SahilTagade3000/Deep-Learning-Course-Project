@@ -1,5 +1,0 @@
-Extract the contents of temporal_gnn_inference_artifacts.zip from Kaggle Cell 37 here.
-model_config.json, temporal_gnn_weights.pth and inference_data.npz must be directly
-inside this folder, not inside another nested folder.
-Keep the complete export together and unchanged. No trained data is bundled with
-the app source package.
