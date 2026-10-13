@@ -1,0 +1,20 @@
+{
+  "stage": "test_evaluated_inference_export_verified",
+  "test_evaluated": true,
+  "dataset_transactions": 203769,
+  "labelled_transactions": 46564,
+  "known_illicit": 4545,
+  "test_transactions": 36824,
+  "labelled_test_transactions": 8841,
+  "high_score_test_transactions": 1578,
+  "test_warning_periods": 0,
+  "warning_unit": "population time period; not persistent entity",
+  "scores_calibrated": false,
+  "export_cpu_inference_verified": true,
+  "export_cpu_max_difference": 3.590741729508906e-07,
+  "limitations": [
+    "Out-of-time classification with current snapshot inputs, not advance forecasting",
+    "Single-seed results; no statistical significance claim",
+    "Early-warning flags are experimental descriptive review signals"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "device": "cuda",
+    "max_depth": 4,
+    "eta": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "max_bin": 256,
+    "scale_pos_weight": 7.634893125361063,
+    "seed": 42,
+    "nthread": 2
+  },
+  "max_rounds": 300,
+  "early_stopping_rounds": 30,
+  "best_round": 266,
+  "validation_threshold": 0.81,
+  "checkpoint_metric": "validation sklearn average_precision",
+  "training_device": "cuda:0",
+  "training_seconds": 3.325045218000014
+}

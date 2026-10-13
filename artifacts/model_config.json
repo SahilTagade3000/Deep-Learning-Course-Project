@@ -1,0 +1,32 @@
+{
+  "input_dim": 165,
+  "hidden_dim": 64,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "max_epochs": 50,
+  "patience": 50,
+  "tbptt_steps": 4,
+  "seed": 42,
+  "architecture": "TemporalGNN",
+  "reset_history": false,
+  "best_epoch": 50,
+  "best_validation_ap": 0.7171461530716737,
+  "threshold": 0.6,
+  "checkpoint_metric": "validation sklearn average_precision",
+  "temporal_context": "mean current graph embedding through GRU with prior graph context",
+  "graph_policy": "undirected deduplicated snapshots, current snapshot available",
+  "label_mapping": {
+    "licit": 0,
+    "illicit": 1,
+    "unknown": -1
+  },
+  "class_weights": [
+    0.5654888153076172,
+    4.317446708679199
+  ],
+  "training_device": "cuda",
+  "training_seconds": 19.289774161999958,
+  "training_complete": true,
+  "max_recurrent_weight_change": 0.14017032086849213
+}

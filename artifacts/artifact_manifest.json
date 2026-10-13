@@ -1,0 +1,178 @@
+{
+  "baseline_validation_confusion.png": {
+    "bytes": 39448,
+    "sha256": "e7cfb5fdf7bf5efb3ee6d8c6afdadfea29cb1cc0cb0fd32355ec530875434002"
+  },
+  "baseline_validation_curves.png": {
+    "bytes": 190577,
+    "sha256": "3cf004a44f9de3fdcebe7547761841cea2190f7453ec530ddd910413156c2629"
+  },
+  "baseline_validation_metrics.csv": {
+    "bytes": 348,
+    "sha256": "09a4c96ed4d93c9850d663c2092b15aea3d8f51fc8c758c8c8f8f48276296dcf"
+  },
+  "baseline_validation_predictions.csv": {
+    "bytes": 306998,
+    "sha256": "588ec1a1bb6f00977d9667162fbcf20e96346225e6c179ded32ea898cc66cde0"
+  },
+  "environment.txt": {
+    "bytes": 18551,
+    "sha256": "4c204ba55030f9b42f8531a5e601633125dba9710de17078822b33155631a69f"
+  },
+  "example_neighbourhood.csv": {
+    "bytes": 1467,
+    "sha256": "a5a10beb1a26a6313c8211331697f6a42599830d4e45fe47e20d36c9a9f8d5a3"
+  },
+  "frozen_evaluation.json": {
+    "bytes": 4698,
+    "sha256": "c81c3f7d2b6a9abf3cbbf76d96dd0f842cf7ac182ca78f3434f015b5e638be9f"
+  },
+  "gcn_config.json": {
+    "bytes": 454,
+    "sha256": "108298fb8162b59fb46835f1b8ae92d2e8ec140b49510cee1ed56a6000695629"
+  },
+  "gcn_history.csv": {
+    "bytes": 5975,
+    "sha256": "35d1e53a9abe3e4cd32c421ba077aee42769b39e0becda9e023cc4f0850b2b06"
+  },
+  "gcn_validation_confusion.npy": {
+    "bytes": 160,
+    "sha256": "e4cbe882bb476cd72d7940136ff7ada6ccfdfeb7b6d8738305db7956c39eec02"
+  },
+  "gcn_weights.pth": {
+    "bytes": 62597,
+    "sha256": "5a285dd207f71fc281840f52170fed45a4a908b648a77f33632c738dfc7d4076"
+  },
+  "inference_data.npz": {
+    "bytes": 39668066,
+    "sha256": "d7b76f748980687a7cc473aa3584645d65f1a0cdcf56e8f5842733d6b991284c"
+  },
+  "model_config.json": {
+    "bytes": 868,
+    "sha256": "2c836f6859bb1c5d31666fce033c30e340354a2df3ee78e3ecf2632ac0bd8831"
+  },
+  "phase3_summary.json": {
+    "bytes": 860,
+    "sha256": "48b0a264a98abb88d86eeaf0c4b5458536f09c1f42c2d76d4e16cafe9038c1e0"
+  },
+  "phase4_summary.json": {
+    "bytes": 1208,
+    "sha256": "d60f26a6b113bb99b04834c85703ed334576005b9c184e46ead5363d19261cfa"
+  },
+  "phase4_validation_metrics.csv": {
+    "bytes": 641,
+    "sha256": "97cd73ee3c729a56320b7ba1a42a4d07146a4ee5ff38bfb5152f1cf902fe55ad"
+  },
+  "preprocessing_config.json": {
+    "bytes": 4401,
+    "sha256": "5f5aa2dd5212a85ba82bd3eaf4ced69fde1a1f5d286942f2e0dfaf7124707ac2"
+  },
+  "project_summary.json": {
+    "bytes": 749,
+    "sha256": "091c3474e02f761f99959a761f4031104952306652b109625a27c8e383476bc5"
+  },
+  "reset_history_config.json": {
+    "bytes": 868,
+    "sha256": "58c1928c0ac0d983a76346d1c7d7f9455020fb82b10f8a9446078bbf40e24163"
+  },
+  "reset_history_history.csv": {
+    "bytes": 5968,
+    "sha256": "0695b09085dcfeacc9e51607dd90270ed2b7e9d009850f3d97b0eb5ca35d972d"
+  },
+  "reset_history_weights.pth": {
+    "bytes": 164197,
+    "sha256": "b1fef55aefb9009bcccd0dda95e45e16900963c76fd5540d17d13ccd3ac19e84"
+  },
+  "risk_trajectory.csv": {
+    "bytes": 4104,
+    "sha256": "17fbe26dd656f89246db3efbaeb2a3f483e859a818ee6ff5cb4ef7af9ba84ec1"
+  },
+  "risk_trajectory.png": {
+    "bytes": 91750,
+    "sha256": "9d75074d9447051072767eff69cea491bb75ce12f0e4cd6eb601cdb22fac2c6c"
+  },
+  "scaler.pkl": {
+    "bytes": 4559,
+    "sha256": "5590fb1d998aa419191ef82ddf3d8f915622fc687529acafed50de56e62e7e24"
+  },
+  "snapshot_summary.csv": {
+    "bytes": 1161,
+    "sha256": "24b73d972e00a097bb27c49386535f31b98a92cd0c7055300138ef72945b436e"
+  },
+  "split_summary.csv": {
+    "bytes": 148,
+    "sha256": "eff41eafe831edbabb0e480cab2fbb2081aac004ef52c7cb91650cfed506d5e4"
+  },
+  "suspicious_neighbourhood.png": {
+    "bytes": 188197,
+    "sha256": "5a2b1621e378cb35934b3ad2ae2ccd01e24e8920ad2cd1fa4b785da761997d1e"
+  },
+  "temporal_gnn_history.csv": {
+    "bytes": 5957,
+    "sha256": "767d965b2b6cfec9a7898b2046667a13c8cd8609d465913e9d1291f7880af5ee"
+  },
+  "temporal_gnn_weights.pth": {
+    "bytes": 164181,
+    "sha256": "1008d2af6d2be3c831e135823b970b5f89aa09f58292d6610dbe70fdc703a62d"
+  },
+  "temporal_model.py": {
+    "bytes": 1015,
+    "sha256": "28e414c807aae1bb2e22f4c44b68d549678d259468862c61f07746321b9c8028"
+  },
+  "temporal_pretest_predictions.csv": {
+    "bytes": 7010332,
+    "sha256": "fce3ee68633ec4b2a19c0c18996e9613da786ee828bb1b85cea23c1d55456e6b"
+  },
+  "temporal_training_curves.png": {
+    "bytes": 115213,
+    "sha256": "d9ddbba388fa323fd529505c45a348d3181d93843c9b00fe2b5c687ac6c1530e"
+  },
+  "test_confusion_matrices.json": {
+    "bytes": 367,
+    "sha256": "8b5cebd826eaa37241d7ead6732add5e54438cf62272bf6ee97788fa68abf2f6"
+  },
+  "test_confusion_matrices.png": {
+    "bytes": 59788,
+    "sha256": "b1ab41fb90bcb89f31bea71214528bb00bc108f42abbe2f06fead4b0480b38af"
+  },
+  "test_curves.png": {
+    "bytes": 121395,
+    "sha256": "29f71f4d9271b87c0737187d6ffe26e91e69decc1abe190642732a79aa2be56a"
+  },
+  "test_early_warnings.csv": {
+    "bytes": 730,
+    "sha256": "491fbd004264dd865fb5878931a107bb68915c35c0a410c04e34d7d2e6a13da2"
+  },
+  "test_metrics.csv": {
+    "bytes": 643,
+    "sha256": "0aa48250ac1227403927bb197e3a4dc68a17588e02bf7bf9b34cf779f699bae7"
+  },
+  "test_model_predictions.csv": {
+    "bytes": 571222,
+    "sha256": "3a5de9d1e47d2f2401cfd5d4f3ef9d89d030bd3b15e385cfdd2c18039d780d22"
+  },
+  "test_period_metrics.csv": {
+    "bytes": 3620,
+    "sha256": "74f6f73a047c9d123f9183cb7d208052e513ae60eed2279112a9a5716c32611e"
+  },
+  "transaction_predictions.csv": {
+    "bytes": 14014700,
+    "sha256": "6df4313910b829aa576a8f9cd798f47ca69ce88679f5b2519a0801d8e9beba8e"
+  },
+  "xgboost_config.json": {
+    "bytes": 560,
+    "sha256": "dc5981c2f0dac0626636b28feb48dd77c26d332104f232ed392a0e223517e8d3"
+  },
+  "xgboost_history.csv": {
+    "bytes": 18101,
+    "sha256": "fae47df08978422b0cdf65647f630071725068266590923ce6db9340a055ad11"
+  },
+  "xgboost_model.json": {
+    "bytes": 522469,
+    "sha256": "a400d59be0655e9cd89969c4c3c3d64f90804c160baa93dc7fbb028e2b489265"
+  },
+  "xgboost_validation_confusion.npy": {
+    "bytes": 160,
+    "sha256": "483d82691d4d45b91b8af9f383fec74727661926a9094e9388eceae4c6df9747"
+  }
+}

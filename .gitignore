@@ -1,0 +1,20 @@
+.venv/
+.venv311/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+node_modules/
+*.log
+*.zip
+*.bak
+Thumbs.db
+.DS_Store
+
+# Model and inference files in artifacts/ are required and ARE tracked.

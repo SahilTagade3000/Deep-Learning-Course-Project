@@ -1,0 +1,38 @@
+{
+  "stage": "baseline_training_complete",
+  "seed": 42,
+  "test_evaluated": false,
+  "training_periods": [
+    1,
+    34
+  ],
+  "validation_periods": [
+    35,
+    41
+  ],
+  "xgboost_validation": {
+    "accuracy": 0.985566483586665,
+    "precision": 0.9698996655518395,
+    "recall": 0.8592592592592593,
+    "f1": 0.9112333071484682,
+    "roc_auc": 0.9791565454187764,
+    "average_precision": 0.9320144334755373,
+    "threshold": 0.81
+  },
+  "gcn_validation": {
+    "accuracy": 0.9515902414101418,
+    "precision": 0.7195845697329377,
+    "recall": 0.7185185185185186,
+    "f1": 0.7190511489992587,
+    "roc_auc": 0.9376324045599975,
+    "average_precision": 0.7591743512856353,
+    "threshold": 0.46
+  },
+  "xgboost_best_round": 266,
+  "gcn_best_epoch": 48,
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "pyg": "2.8.0.post1",
+    "xgboost": "3.2.0"
+  }
+}

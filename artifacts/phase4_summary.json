@@ -1,0 +1,40 @@
+{
+  "stage": "temporal_training_complete_validation_review_pending",
+  "test_evaluated": false,
+  "temporal_validation": {
+    "accuracy": 0.9490356367352152,
+    "precision": 0.7197452229299363,
+    "recall": 0.6696296296296296,
+    "f1": 0.693783576362241,
+    "roc_auc": 0.9293417823750505,
+    "average_precision": 0.7171461530716737,
+    "threshold": 0.6
+  },
+  "reset_history_validation": {
+    "accuracy": 0.9498020181376932,
+    "precision": 0.7342192691029901,
+    "recall": 0.6548148148148148,
+    "f1": 0.692247454972592,
+    "roc_auc": 0.9325064455005747,
+    "average_precision": 0.7140202783790545,
+    "threshold": 0.63
+  },
+  "history_reset_inference_diagnostic": {
+    "accuracy": 0.9463533018265423,
+    "precision": 0.8346456692913385,
+    "recall": 0.4711111111111111,
+    "f1": 0.6022727272727273,
+    "roc_auc": 0.9289568125575953,
+    "average_precision": 0.7164177862548918,
+    "threshold": 0.6
+  },
+  "mean_history_score_difference": 0.04281136393547058,
+  "best_epoch_at_budget_limit": {
+    "GCN": false,
+    "Temporal GNN": true,
+    "Reset-history": true
+  },
+  "reload_verified": true,
+  "cpu_inference_verified": true,
+  "cpu_maximum_score_difference": 6.556510925292969e-07
+}

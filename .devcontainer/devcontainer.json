@@ -1,0 +1,22 @@
+{
+  "name": "Temporal GNN - Python 3.11 CPU",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "remoteUser": "vscode",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Temporal GNN dashboard",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-python.vscode-pylance"],
+      "settings": {
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv311/bin/python",
+        "python.terminal.activateEnvironment": true
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
